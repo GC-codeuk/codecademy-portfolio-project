@@ -4,10 +4,10 @@
   <title>Portfolio</title>
   <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,500,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-  <link rel="stylesheet" href="codecademy-portfolio-project/unslider-master/dist/css/unslider.css">
+  
+    <%= csrf_meta_tags %>
+
+
 </head>
   
 <body>
@@ -44,12 +44,13 @@
   </div>    
 </div>
   
-<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="codecademy-portfolio-project/unslider-master/src/js/unslider.js"></script>
+<!--<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.unslider/1.0.0/unslider.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unslider/2.0.3/css/unslider.css">
   
-<%= stylesheet_link_tag "application", media: "all" %>
-<%= javascript_include_tag "application" %>
-  
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 
 </body>
 </html>
